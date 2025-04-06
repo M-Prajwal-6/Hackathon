@@ -3,10 +3,15 @@ An intelligent web application that suggests IT career paths based on user skill
 
 Key Features
 💡 Skill-based job matching
+
 🤖 AI recommendations via Google Gemini
+
 📊 Dataset-driven job analysis
+
 📱 Modern UI with Tailwind CSS
+
 🎓 Learning resource suggestions
+
 Tech Stack
 Backend: Python Flask
 AI: Google Gemini AI
@@ -65,7 +70,9 @@ GEMINI_API_KEY: Google Gemini API key
 Project Structure
    ai-career-coach/
 ├── test.py                      # Main application
+
 ├── requirements.txt             # Dependencies
+
 └── IT_Job_Roles_Skills_Dataset.csv  # Job database
 
 API Usage:
