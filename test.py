@@ -54,7 +54,7 @@ SAMPLE_DATASET = [
 ]
 
 # API Key for Gemini
-API_KEY = "AIzaSyCB2wPfq7uHAHfkW43us0wOHKHpPHdn3Xc"
+API_KEY = "Gemini API key"
 MODEL_NAME = "gemini-2.0-flash"
 
 def initialize_genai():
@@ -657,3 +657,4 @@ if __name__ == "__main__":
             logger.error(f"Failed to create sample dataset file: {e}")
     
     app.run(host="0.0.0.0", port=5000, debug=True)
+
